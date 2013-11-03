@@ -6,5 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="intiallist_content">&quot;Main Menu&quot;</string>
     <string name="firsttext">AngelHacking is the shiiizzzz</string>
+    <string name="title_activity_dining_nav">Dining_nav</string>
+    <string name="title_activity_housing_nav">Housing_nav</string>
+    <string name="housinghi">Housing HELLO</string>
 
 </resources>

@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.ALCU.angel.Dining_nav"
+            android:label="@string/title_activity_dining_nav" >
+        </activity>
+        <activity
+            android:name="com.ALCU.angel.Housing_nav"
+            android:label="@string/title_activity_housing_nav" >
+        </activity>
     </application>
 
 </manifest>
