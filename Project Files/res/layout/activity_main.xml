@@ -6,22 +6,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/campus1"
     tools:context=".MainActivity" >
 
-   <ImageButton
-       android:id="@+id/diningbutton"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_centerHorizontal="true"
-       android:src="@drawable/bluebutton9" />
-
-   <TextView
-       android:id="@+id/textView1"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/diningbutton"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="87dp"
-       android:text="@string/firsttext" />
-
+    <ImageButton
+        android:src="@drawable/intial_button"
+        android:contentDescription="Because I said so"
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha="1"
+        android:padding="20dp"
+        android:background="@android:color/transparent" 
+        >
+        </ImageButton>
+    
+    <ImageButton
+        android:src="@drawable/intial_button_housing"
+        android:contentDescription="Because I said so"
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha="1"
+        android:background="@android:color/transparent" 
+        android:padding="20dp"
+        android:layout_below="@id/button1"
+        >
+        </ImageButton>
 </RelativeLayout>
