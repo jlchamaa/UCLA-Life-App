@@ -21,20 +21,44 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int campus1=0x7f020000;
-        public static final int campus2=0x7f020001;
-        public static final int dining_pressed=0x7f020002;
-        public static final int dining_unpressed=0x7f020003;
-        public static final int housing_pressed=0x7f020004;
-        public static final int housing_unpressed=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int intial_button=0x7f020007;
-        public static final int intial_button_housing=0x7f020008;
+        public static final int bcafe=0x7f020000;
+        public static final int bcafe300=0x7f020001;
+        public static final int bp=0x7f020002;
+        public static final int bp300=0x7f020003;
+        public static final int c1919=0x7f020004;
+        public static final int c1919300=0x7f020005;
+        public static final int campus1=0x7f020006;
+        public static final int campus2=0x7f020007;
+        public static final int covel=0x7f020008;
+        public static final int covel300=0x7f020009;
+        public static final int dining_pressed=0x7f02000a;
+        public static final int dining_unpressed=0x7f02000b;
+        public static final int dln=0x7f02000c;
+        public static final int dln300=0x7f02000d;
+        public static final int dnp=0x7f02000e;
+        public static final int dnp300=0x7f02000f;
+        public static final int feast=0x7f020010;
+        public static final int feast300=0x7f020011;
+        public static final int housing_pressed=0x7f020012;
+        public static final int housing_unpressed=0x7f020013;
+        public static final int htk=0x7f020014;
+        public static final int htk300=0x7f020015;
+        public static final int ic_launcher=0x7f020016;
+        public static final int intial_button=0x7f020017;
+        public static final int intial_button_housing=0x7f020018;
+        public static final int rendez=0x7f020019;
+        public static final int rendez300=0x7f02001a;
     }
     public static final class id {
-        public static final int action_settings=0x7f080002;
-        public static final int button1=0x7f080000;
-        public static final int button2=0x7f080001;
+        public static final int action_settings=0x7f080008;
+        public static final int button1=0x7f080006;
+        public static final int button2=0x7f080007;
+        public static final int covie=0x7f080002;
+        public static final int deneve=0x7f080003;
+        public static final int diningfirstrow=0x7f080001;
+        public static final int diningsecondrow=0x7f080005;
+        public static final int feast=0x7f080004;
+        public static final int textView1=0x7f080000;
     }
     public static final class layout {
         public static final int activity_dining_nav=0x7f030000;
