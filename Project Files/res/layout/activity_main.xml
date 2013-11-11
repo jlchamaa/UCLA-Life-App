@@ -19,7 +19,7 @@
         android:alpha="1"
         android:padding="20dp"
         android:background="@android:color/transparent" 
-        >
+        > 
         </ImageButton>
     
     <ImageButton

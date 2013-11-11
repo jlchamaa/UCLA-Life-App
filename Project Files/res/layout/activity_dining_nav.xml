@@ -7,40 +7,46 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Dining_nav" >
+    tools:context=".Dining" >
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:text="RESIDENTIAL RESTAURANTS" />
+        android:text="RESIDENTIAL RESTAURANTS"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:typeface="normal" />
 
   <LinearLayout
       android:id="@+id/diningfirstrow"
       android:layout_width="fill_parent"
-      android:layout_height="160dp"
-      android:layout_below="@+id/textView1"
-      android:layout_centerHorizontal="true"
-      android:layout_marginTop="21dp"
+      android:layout_below="@id/textView1"
+      android:layout_height="300dp"
+      android:paddingTop="21dp"
+      android:paddingBottom="21dp"
       android:orientation="horizontal" >
 
       <ImageButton
           android:id="@+id/covie"
-          android:layout_width="168dp"
+          android:layout_width="fill_parent"
           android:layout_height="fill_parent"
           android:padding="100dp"
+          android:layout_weight="1"
+          android:background="@android:color/transparent" 
           android:src="@drawable/covel300" />
 
       <ImageButton
           android:id="@+id/deneve"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:layout_alignParentBottom="true"
-          android:layout_alignParentRight="true"
+          android:layout_gravity="top"
           android:layout_weight="1"
+          android:background="@android:color/transparent"
           android:padding="100dp"
           android:src="@drawable/dnp300" />
 
@@ -48,48 +54,99 @@
           android:id="@+id/feast"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:layout_alignParentBottom="true"
-          android:layout_alignParentRight="true"
           android:layout_weight="1"
+          android:background="@android:color/transparent" 
           android:padding="100dp"
           android:src="@drawable/feast300" />
   </LinearLayout>
   
-    <LinearLayout
-        android:id="@+id/diningsecondrow"
+  <LinearLayout
+      android:id="@+id/diningsecondrow"
       android:layout_width="fill_parent"
-      android:layout_height="160dp"
-      android:layout_below="@+id/diningfirstrow"
-      android:layout_centerHorizontal="true"
-      android:layout_marginTop="0dp"
+      android:layout_below="@id/diningfirstrow"
+      android:layout_height="300dp"
+      android:paddingTop="21dp"
+      android:paddingBottom="21dp"
       android:orientation="horizontal" >
 
       <ImageButton
-          android:id="@+id/covie"
-          android:layout_width="168dp"
+          android:id="@+id/denevelatenight"
+          android:layout_width="fill_parent"
           android:layout_height="fill_parent"
           android:padding="100dp"
+          android:layout_weight="1"
+          android:background="@android:color/transparent" 
           android:src="@drawable/dln300" />
 
       <ImageButton
-          android:id="@+id/deneve"
+          android:id="@+id/hedricktk"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:layout_alignParentBottom="true"
-          android:layout_alignParentRight="true"
+          android:layout_gravity="top"
           android:layout_weight="1"
+          android:background="@android:color/transparent"
           android:padding="100dp"
           android:src="@drawable/htk300" />
 
       <ImageButton
-          android:id="@+id/feast"
+          android:id="@+id/bruinplate"
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
-          android:layout_alignParentBottom="true"
-          android:layout_alignParentRight="true"
           android:layout_weight="1"
+          android:background="@android:color/transparent" 
           android:padding="100dp"
           android:src="@drawable/bp300" />
   </LinearLayout>
-   
+  
+  <TextView
+      	android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="QUICK-SERVICE RESTAURANTS"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/diningsecondrow"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:typeface="normal" />
+  
+    <LinearLayout
+      android:id="@+id/diningthirdrow"
+      android:layout_width="fill_parent"
+      android:layout_below="@id/textView2"
+      android:layout_height="300dp"
+      android:paddingTop="21dp"
+      android:paddingBottom="21dp"
+      android:orientation="horizontal" >
+
+      <ImageButton
+          android:id="@+id/bcaf"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:padding="100dp"
+          android:layout_weight="1"
+          android:background="@android:color/transparent" 
+          android:src="@drawable/bcafe300" />
+
+      <ImageButton
+          android:id="@+id/cafe1919"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_gravity="top"
+          android:layout_weight="1"
+          android:background="@android:color/transparent"
+          android:padding="100dp"
+          android:src="@drawable/c1919300" />
+
+      <ImageButton
+          android:id="@+id/rendezz"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_weight="1"
+          android:background="@android:color/transparent" 
+          android:padding="100dp"
+          android:src="@drawable/rendez300" />
+  </LinearLayout>
 </RelativeLayout>

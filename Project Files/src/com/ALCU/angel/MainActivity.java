@@ -4,12 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.OrientationEventListener;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.RelativeLayout;
 
 public class MainActivity extends Activity
 {
@@ -43,19 +40,6 @@ public class MainActivity extends Activity
 		b1.setOnClickListener(diningclick);
 		b2.setOnClickListener(housingclick);
 		
-		OrientationEventListener spincheck = new OrientationEventListener(this) 
-		{
-			
-			@Override
-			public void onOrientationChanged(int orientation)
-			{
-				RelativeLayout rl= (RelativeLayout)findViewById(R.layout.activity_main);
-				if((orientation>315 && orientation<370)||(orientation>-1 &&orientation<45))
-					rl.setBackgroundResource(R.drawable.campus1);
-				else
-					rl.setBackgroundResource(R.drawable.campus2);
-			}
-		};
 	};
 		
 	
